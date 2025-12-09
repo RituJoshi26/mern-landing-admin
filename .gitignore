@@ -1,0 +1,48 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# Vite cache
+node_modules/.vite
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# Uploads / user-generated files
+uploads/
+uploads/**
+
+# Database files, local sqlite
+*.sqlite
+*.db
+
+# Mac Thumbs, etc
+.Spotlight-V100
+.Trashes
+
+# Optional lock files (you may keep these if you want deterministic installs)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# Git LFS pointer files (only if you use LFS)
+*.psd
+*.png
+*.jpg
